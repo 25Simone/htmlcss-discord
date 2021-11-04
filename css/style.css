@@ -201,7 +201,7 @@ footer div h1:first-child{
 }
 .footer-bottom{
     width: 1200px;
-    margin: 40px auto;
+    margin: 0 auto;
     border-top:1px solid #89a2e6;
     padding: 30px 0;
 }
@@ -212,4 +212,7 @@ footer div h1:first-child{
 }
 .footer-bottom .button{
     float: right;
+}
+footer>.row{
+    margin-bottom: 40px;
 }
