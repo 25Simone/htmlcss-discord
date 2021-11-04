@@ -78,6 +78,32 @@ a{
     width: 100%;
     height: 50px;
 }
+footer{
+    background: #22272a;
+    padding-top: 60px;
+}
+footer .row>div{
+    width: 20%;
+}
+footer .row>div:not(footer .row>div:last-child){
+    padding-left: 50px;
+}
+footer .row h1{
+    color: #6b89df;
+    margin-bottom: 15px;
+}
+footer ul{
+    color: white;
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer ul li:first-child{
+    color: #6b89df;
+    font-weight: bold;
+}
+
 /* end utility */
 
 
@@ -147,4 +173,43 @@ nav ul li a{
 }
 .last-section p{
     font-size: 18px;
+}
+.last-section>div:last-of-type{
+    margin: 0px auto;
+    padding: 20px;
+    max-width: 500px;
+    background: url("../img/stars.svg");
+    font-weight: bold;
+    font-size: 20px;
+}
+.blue-button{
+    color: white;
+    background-color: #89a2e6;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+footer div h1:first-child{
+    font-size: 30px;
+}
+.language{
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.language img{
+    width: 20px;
+}
+.footer-bottom{
+    width: 1200px;
+    margin: 40px auto;
+    border-top:1px solid #89a2e6;
+    padding: 30px 0;
+}
+.footer-bottom::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-bottom .button{
+    float: right;
 }
